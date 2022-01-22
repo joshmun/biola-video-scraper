@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 
+# update this path accordingly
 with open("./html/module3.html") as fp:
     soup = BeautifulSoup(fp, "html.parser")
 
